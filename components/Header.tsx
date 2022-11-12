@@ -33,7 +33,7 @@ import Image from "next/image";
               <p className='headerLink'>Ship to</p>
               <p className='headerLink'>Sell</p>
               <p className='headerLink'>Watchlist</p>
-            </div>
+            
 
             <Link href="/addItem" className='flex items-center hover:link'>Add to inventory
             <ChevronDownIcon className='h-4' />
@@ -41,6 +41,7 @@ import Image from "next/image";
 
             <BellIcon className='h-6 w-6' />
             <ShoppingCartIcon className='h-6 w-6' />
+            </div>
         </nav>
 
         <hr className='mt-2'/>
@@ -70,7 +71,7 @@ import Image from "next/image";
           ></input>
         </div>
         <button className="hidden sm:inline bg-blue-700 text-white px-5 md:px-10 py-2 border-2 border-blue-700 cursor-pointer">Search</button>
-        <Link href="">
+        <Link href="\create">
           <button className="border-blue-700 px-5 md:px-10 py-2 border-2 text-blue-700 hover:bg-blue-700/50 hover:text-white cursor-pointer"> List Item</button>
         </Link>
         </section>
